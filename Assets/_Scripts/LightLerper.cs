@@ -41,7 +41,7 @@ public class LightLerper : MonoBehaviour{
 		}
 	}
 
-    private void TriggerLerp(float lightStrength, Color lightColor){
+    public void TriggerLerp(float lightStrength, Color lightColor){
 		if(currentLerpJob != null){
 			StopCoroutine(currentLerpJob);
 			currentLerpJob = null;
