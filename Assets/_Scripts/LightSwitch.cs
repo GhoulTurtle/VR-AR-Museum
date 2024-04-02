@@ -9,7 +9,6 @@ public class LightSwitch : MonoBehaviour{
     [SerializeField] private float upperEndValue;
 
     public void UpdateLightValue(float lightValue) {
-        Debug.Log(lightValue);
         lightToControl.intensity = Mathf.Lerp(lowerEndValue, upperEndValue, lightValue);
     }
 }

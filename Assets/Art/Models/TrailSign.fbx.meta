@@ -3,7 +3,17 @@ guid: 916740cd27c00de41ad0757f4dbfe5ed
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrailSign
+    second: {fileID: 2100000, guid: b5ca334d12146d24ca819745d0ccabd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: f7df4daac5cc5e64daf0b23fa61cdbd6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
